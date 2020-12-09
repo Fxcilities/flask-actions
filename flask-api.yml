@@ -1,4 +1,4 @@
-https://github.com/Fxcilities/flask-actions/
+# https://github.com/Fxcilities/flask-actions/
 
 name: Flask CI
 
@@ -45,4 +45,4 @@ jobs:
     - name: Flask Tests
       run: |
         export FLASK_APP=app.py
-        python app.py app
+        flask run
